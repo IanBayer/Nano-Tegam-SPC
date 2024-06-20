@@ -86,6 +86,7 @@ Public Class Main
         Read_btn.Enabled = False
         Export_btn.Visible = False
 
+        Console.WriteLine("Grant Git")
     End Sub
 
     Private Sub Connect_btn_Click(sender As Object, e As EventArgs)
